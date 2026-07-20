@@ -1,0 +1,12 @@
+node_modules
+dist
+*.local
+.DS_Store
+data/*.db
+data/*.db-journal
+data/*.sqlite
+
+# Environment variables — never commit real secrets
+.env
+.env.*
+!.env.example
